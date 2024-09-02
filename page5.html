@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Page</title>
+    <link rel="stylesheet" href="sytles.css">
+</head>
+
+<body>
+    <section class="section appointment" id="appointment" aria-label="appointment">
+        <div class="container">
+
+            <div class="appointment-card">
+
+                <figure class="card-banner img-holder" style="--width: 50%; --height: auto;">
+                    <img src="./assets/images/appoin-banner-1.jpg" width="500" height="auto" loading="lazy" alt="Appointment Banner 1" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                    <h2 class="section-title">Make an Appointment</h2>
+
+                    <p class="section-text">
+                        "Make Scheduling Your Appointment a Breeze Quickly Book and Confirm Your Spot with Our Efficient Online Service".
+                    </p>
+
+                    <form action="#" method="post" class="appointment-form">
+
+                        <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Your Full Name" required class="input-field">
+                            <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <input type="tel" name="phone" placeholder="Phone Number" required class="input-field">
+                            <select name="category" class="input-field">
+                                <option value="" disabled selected>Select category</option>
+                                <option value="Beauty & Spa">Beauty & Spa</option>
+                                <option value="Body Massage">Body Massage</option>
+                                <option value="Shaving & Facial">Shaving & Facial</option>
+                                <option value="Hair Color">Hair Color</option>
+                            </select>
+                        </div>
+
+                        <input type="date" name="date" required class="input-field">
+
+                        <textarea name="message" placeholder="Write your message" required class="input-field"></textarea>
+
+                        <button type="submit" class="form-btn">
+                            <span class="btn-text">Book Appointment</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <figure class="card-banner img-holder" style="--width: 50%; --height: auto;">
+                    <img src="./assets/images/appoin-banner-2.jpg" width="500" height="auto" loading="lazy" alt="Appointment Banner 2" class="img-cover">
+                </figure>
+
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
